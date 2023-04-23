@@ -42,7 +42,8 @@ describe("TSc_03", () => {
      Menpage.TC_31()
   });
   
-  it('TC_32', () => {
+  it
+  ('TC_32', () => {
    Menpage.TC_32()
   });
   it('TC_33', () => {

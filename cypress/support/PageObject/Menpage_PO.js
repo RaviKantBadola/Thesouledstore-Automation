@@ -108,11 +108,13 @@ class MenPage_PO {
   }
 
   TC_32(){
-//for validating the Official Merchandise section
+//for validating the top selling section
     //i click on first image in this code
-    cy.xpath( "(//img[@title='Star Wars: Rise of Darth Vader undefined at The Souled Store'])[1]").click();
+    
+    cy.xpath( "(//img[@title='Black Panther: Wakanda Forever undefined at The Souled Store'])[1]").click();
     //assertion for it redirecting to first image single product page or not
-    cy.url().should("equal","https://www.thesouledstore.com/product/star-wars-rise-of-darth-vader-oversized-tshirts?gte=1");
+    cy.wait(3000)
+    cy.url().should("equal","https://www.thesouledstore.com/product/black-panther-wakanda-forever-oversized-jersey?gte=1");
 
   }
   TC_33(){
