@@ -1,0 +1,20 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "For Cypress Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.10.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
