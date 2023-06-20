@@ -9,7 +9,7 @@ To set up the project locally, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/RaviKantBadola/-Thesouledstore-Automation.git
+git clone https://github.com/RaviKantBadola/Thesouledstore-Automation.git
 ```
 
 Install the dependencies:
