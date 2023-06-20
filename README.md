@@ -42,5 +42,8 @@ npx cypress run
 Tests
 The tests included in this project follow the Page Object Model (POM) design pattern. The test files are organized as follows:
 
-folder/file.spec.js: Description of the test file.
+cypress/TheSouledStore/*.js Description of the test file.
+
 The POM approach separates the web elements and their interactions into separate page object files. This allows for better maintainability, reusability, and readability of the tests.
+
+
