@@ -30,7 +30,7 @@ Open the Cypress Test Runner:
 npx cypress open
 ```
 
-🚀 This will open the Cypress Test Runner, allowing you to interactively select and run the tests.
+🚀 This will open the Cypress Test Runner, allowing you to select and run the tests interactively.
 
 Run the Cypress tests in headless mode:
 
@@ -45,5 +45,18 @@ The tests included in this project follow the Page Object Model (POM) design pat
 cypress/TheSouledStore/*.js Description of the test file.
 
 The POM approach separates the web elements and their interactions into separate page object files. This allows for better maintainability, reusability, and readability of the tests.
+
+You check the allure report for checking all test cases that I deployed on Netlify
+
+
+```bash
+https://thesouledstoreallurereport.netlify.app/
+```
+
+## Thank you for visiting 😇 Show your support
+
+Give a ⭐️ if you like this project!
+
+
 
 
