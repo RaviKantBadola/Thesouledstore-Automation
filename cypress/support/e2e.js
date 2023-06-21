@@ -14,8 +14,10 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-require('@cypress/xpath');
+
 import './commands'
+require('@cypress/xpath');
+import '@shelex/cypress-allure-plugin';
  Cypress.on('uncaught:exception', (err, runnable) => {
 //     // returning false here prevents Cypress from
 //     // failing the test

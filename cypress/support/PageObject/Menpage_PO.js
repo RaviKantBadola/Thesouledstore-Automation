@@ -111,10 +111,10 @@ class MenPage_PO {
 //for validating the top selling section
     //i click on first image in this code
     
-    cy.xpath( "(//img[@title='Black Panther: Wakanda Forever undefined at The Souled Store'])[1]").click();
+    cy.xpath( "(//img[@title='Solids: Mid Blue Wash (Straight Fit) undefined at The Souled Store'])[1]").click();
     //assertion for it redirecting to first image single product page or not
     cy.wait(3000)
-    cy.url().should("equal","https://www.thesouledstore.com/product/black-panther-wakanda-forever-oversized-jersey?gte=1");
+    cy.url().should("equal","https://www.thesouledstore.com/product/solids-mid-blue-wash-men-jeans?gte=1");
 
   }
   TC_33(){

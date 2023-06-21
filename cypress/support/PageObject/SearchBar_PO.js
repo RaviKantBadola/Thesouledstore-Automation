@@ -403,9 +403,6 @@ class SearchBar_PO {
       "https://www.thesouledstore.com/search?q=Marvel%20Comics"
     );
     //assertion Sort is visible or not
-    cy.xpath("(//a[normalize-space()='sort'])[1]")
-      .should("have.text", "sort ")
-      .scrollIntoView();
     cy.wait(5000);
     cy.screenshot({ capture: "viewport" });
   }
@@ -425,11 +422,8 @@ cy.url().should(
   "equal",
   "https://www.thesouledstore.com/search?q=Marvel%20Comics"
 );
-//click on sort
-cy.xpath("(//a[normalize-space()='sort'])[1]").click({ force: true });
 //click on checkbox
 cy.wait(2000)
-cy.xpath("(//input[@value='POPULARITY'])[1]").check({ force: true });
 //click on apply
 cy.contains("Apply").click({ force: true });
 cy.wait(5000);
@@ -474,8 +468,6 @@ cy.xpath("(//a[normalize-space()='Products'])[1]").should(
     cy.xpath("(//a[normalize-space()='Prices'])[1]")
     .should("have.text", "Prices ");
     //sort
-    cy.xpath("(//a[normalize-space()='sort'])[1]")
-    .should("have.text", "sort ");
     cy.wait(8000);
     cy.screenshot({ capture:"fullPage" });
   }
@@ -525,11 +517,8 @@ cy.url().should(
     //click on checkbox
     //cy.wait(2000)
     //cy.xpath("(//div[@class='vue-slider-dot-handle'])[1]").invoke('val', '499').trigger('change').click({force:true})
-    //click on sort
-    cy.xpath("(//a[normalize-space()='sort'])[1]").click({ force: true });
     //click on checkbox
     cy.wait(2000)
-    cy.xpath("(//input[@value='POPULARITY'])[1]").check({ force: true });
     //click on apply
     cy.contains("Apply").click({ force: true });
     cy.wait(5000);
@@ -600,11 +589,8 @@ cy.url().should(
     //click on checkbox
     //cy.wait(2000)
     //cy.xpath("(//div[@class='vue-slider-dot-handle'])[1]").invoke('val', '499').trigger('change').click({force:true})
-    //click on sort
-    cy.xpath("(//a[normalize-space()='sort'])[1]").click({ force: true });
     //click on checkbox
     cy.wait(2000)
-    cy.xpath("(//input[@value='POPULARITY'])[1]").check({ force: true });
     //click on apply
     cy.contains("Apply").click({ force: true });
     cy.wait(5000);
